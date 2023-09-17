@@ -18,7 +18,7 @@ public class JogadoresController {
     @Autowired
     JogadoresServices jogadoresServices;
 
-    @GetMapping("/jogadores")
+    @GetMapping("/times")
     public Map<String, List<String>> buscarJogadores() {
         return jogadoresServices.buscarJogadores();
     }
